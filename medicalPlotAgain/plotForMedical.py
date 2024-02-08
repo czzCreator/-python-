@@ -14,9 +14,7 @@ from matplotlib.cm import ScalarMappable
 from matplotlib.colorbar import ColorbarBase
 
 
-
-
-wb_sheet_final = load_workbook('2024_01_013_Python_data.xlsx')
+wb_sheet_final = load_workbook('.xlsx')
 # 获取所有工作表的名称
 sheet_names = wb_sheet_final.sheetnames
 print(sheet_names)
