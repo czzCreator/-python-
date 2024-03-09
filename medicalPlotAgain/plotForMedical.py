@@ -178,69 +178,6 @@ for i in range(Z_matrix.shape[1]):
             y_curve.append(j + 5)
             break  # 只选取每列的第一个满足条件的点
 
-y_curve[34] = 23
-y_curve[35] = 23
-y_curve[36] = 22
-y_curve[37] = 23
-y_curve[38] = 23
-y_curve[39] = 23
-y_curve[40] = 23
-y_curve[41] = 23
-y_curve[42] = 22
-y_curve[43] = 22
-y_curve[44] = 22
-y_curve[45] = 21
-y_curve[46] = 22
-y_curve[47] = 22
-y_curve[48] = 22
-y_curve[49] = 21
-y_curve[50] = 21
-y_curve[51] = 21
-y_curve[52] = 21
-y_curve[53] = 21
-y_curve[54] = 21
-y_curve[55] = 21
-y_curve[56] = 21
-y_curve[57] = 21
-y_curve[58] = 21
-y_curve[59] = 21
-y_curve[60] = 21
-y_curve[61] = 21
-y_curve[62] = 21
-y_curve[63] = 21
-y_curve[64] = 21
-y_curve[65] = 21
-y_curve[66] = 21
-y_curve[67] = 21
-y_curve[68] = 21
-y_curve[69] = 21
-y_curve[70] = 21
-y_curve[71] = 21
-y_curve[72] = 21
-y_curve[73] = 21
-y_curve[74] = 21
-y_curve[75] = 21
-y_curve[76] = 21
-y_curve[77] = 21
-y_curve[78] = 21
-y_curve[79] = 21
-y_curve[80] = 21
-y_curve[81] = 21
-y_curve[82] = 21
-y_curve[83] = 21
-y_curve[84] = 21
-y_curve[85] = 21
-y_curve[86] = 21
-y_curve[87] = 20
-y_curve[88] = 20
-y_curve[89] = 20
-y_curve[90] = 20
-y_curve[91] = 20
-y_curve[92] = 20
-y_curve[93] = 20
-print("zaojia 1 x_curve: ", x_curve)
-print("zaojia 1 y_curve: ", y_curve)
-
 if bDrawThrehold:
     ax.plot(x_curve, y_curve, color='darkgray', linewidth=1,)
 
